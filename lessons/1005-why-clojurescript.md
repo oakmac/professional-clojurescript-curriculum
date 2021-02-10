@@ -74,3 +74,4 @@
 ## Exercise
 
 - Watch some (or all) of these and get excited about ClojureScript!
+- https://medium.com/@lwhorton/why-clojure-script-e4a69cc5168a
