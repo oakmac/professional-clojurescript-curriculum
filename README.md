@@ -6,6 +6,8 @@ This repository contains lesson outlines, exercises, and student FAQs for the [P
 
 - [Lesson 1005 - Why ClojureScript?](lessons/1005-why-clojurescript.md)
 - [Lesson 1020 - Simple Types: Strings, Numbers, Keywords](lessons/1020-strings-numbers-keywords.md)
+- [Lesson 1021 - Def Forms, let blocks, Symbols](lessons/1021-def-let-symbols.md)
+- [Lesson 1022 - Functions](lessons/1022-functions.md)
 
 ## Student FAQs
 
