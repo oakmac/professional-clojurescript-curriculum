@@ -13,6 +13,10 @@ This repository contains lesson outlines, exercises, and student FAQs for the [P
 
 - [How do you provide default function arguments to a function?](faqs/default-function-arguments.md)
 
+## Exercises
+
+- [Shipping Packages Logic Puzzle](exercises/shipping-logic-puzzle.md)
+
 ## License
 
 The content in this repository is licensed under the [Creative Commons Attribution 4.0 International](LICENSE-CC-BY.txt) license (SPDX code `CC-BY-4.0`).
