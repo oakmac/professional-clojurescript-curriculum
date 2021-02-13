@@ -8,6 +8,7 @@ This repository contains lesson outlines, exercises, and student FAQs for the [P
 - [Lesson 1020 - Simple Types: Strings, Numbers, Keywords](lessons/1020-strings-numbers-keywords.md)
 - [Lesson 1021 - Def Forms, let blocks, Symbols](lessons/1021-def-let-symbols.md)
 - [Lesson 1022 - Functions](lessons/1022-functions.md)
+- [Lesson 1060 - Namespaces and Require](lessons/1060-namespaces-and-require.md)
 
 ## Student FAQs
 
@@ -16,6 +17,7 @@ This repository contains lesson outlines, exercises, and student FAQs for the [P
 ## Exercises
 
 - [Shipping Packages Logic Puzzle](exercises/shipping-logic-puzzle.md)
+- [Namespaces for the Red Squirrel Project](exercises/red-squirrel-namespaces.md)
 
 ## License
 
