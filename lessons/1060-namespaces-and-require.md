@@ -29,6 +29,11 @@
   - prefix all projects with a unique root base
   - "reverse URL" is recommended
   - it is common to use your name or company name
+- Nuanced, but important point: namespaces are how you **organize code** in a CLJS project,
+  but they are only concerned with the code's **location**, not it's **function**.
+  - In other words, namespaces do not define the architecture of your program.
+  - Counter example: in Node.js it is common to "include all `\*.js` modules from a folder" at runtime.
+  - You cannot do this in ClojureScript. You must use `:require` and build the namespace tree for the compiler.
 - namespaces can depend on each other via the `:require` form
   - all of the namespaces for a project form a tree
   - by convention, the `*.core` namespace should be at the top of that tree
@@ -36,11 +41,8 @@
   - the compiler will refuse to compile a project with circular dependency
   - this is a huge positive which forces you to organize your code cleanly
   - no namespace should `:require` the "core" namespace
-- Nuanced, but important point: namespaces are how you **organize code** in a CLJS project,
-  but they are only concerned with the code's **location**, not it's **function**.
-  - In other words, namespaces do not define the architecture of your program.
-  - Counter example: in Node.js it is common to "include all `\*.js` modules from a folder" at runtime.
-  - You cannot do this in ClojureScript. You must use `:require` and build the namespace tree for the compiler.
+- requiring a namespace should be free from side-effects
+  - do not "call code" inside of a namespace; just define things
 - Namespace size
   - **most** namespaces should be less than 200 lines of code
   - in general, namespaces should not exceed 1,000 lines of code
