@@ -18,6 +18,7 @@ This repository contains lesson outlines, exercises, and student FAQs for the [P
 
 - [Shipping Packages Logic Puzzle](exercises/shipping-logic-puzzle.md)
 - [Namespaces for the Red Squirrel Project](exercises/red-squirrel-namespaces.md)
+- [Multi-Game CLI Script](exercises/multi-game-script.md)
 
 ## License
 

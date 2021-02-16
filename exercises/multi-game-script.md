@@ -5,19 +5,21 @@
 - Compile a ClojureScript project to a Node.js script
 - Parse command line arguments
 - Split code using namespaces
-- Use conditionals and simple logic
+- Use conditionals and write simple logic
 
 ## Exercise
 
-Your task is to write a CLI script that can play multiple games.
+Let's use what we have learned so far to write a CLI script that can play multiple games.
 
-Let's use what we have learned so far. Be sure to separate your code into different namespaces.
+- I recommend doing the games in order starting with \#1, then \#2, etc
+- Be sure to separate your code logically using namespaces
+- Don't forget to commit or save your work often!
 
 #### Game 1 - Even or Odd?
 
 The classic game of "even or odd" played by children and adults worldwide. The
 user inputs a number and your program should print whether the number is "even"
-or "odd". I spent hours playing this game as a youth.
+or "odd". I spent countless hours playing this game as a youth.
 
 ```sh
 $ node app.js even-or-odd 54
@@ -156,14 +158,35 @@ $ node app.js calc divide 0 24
 
 #### Game 5 - Tic Tac Toe
 
-#### Game 6 (bonus) - Go Engine
+Sally loves playing Tic Tac Toe with her little brother James. The only problem
+they run into is determining when the game is over.
 
-Write
-
-
-Examples:
+Can you build a program to help Sally and James know when their game is over?
 
 ```sh
-$ node app.js fizzbuzz 54
->
+$ node app.js ttt ooo,xnx,nxn
+> O wins!
+
+$ node app.js ttt oxo,oxn,nxn
+> X wins!
+
+$ node app.js ttt oxo,oon,nxx
+> No winner yet. Play on!
+
+$ node app.js ttt xoo,oxx,xxo
+> Game over: draw
+```
+
+#### Game 6 (bonus) - Go Engine
+
+This one is a real challenge!
+
+Write a program that can beat most 6 dan amateur human players at the classic game of [Go](https://en.wikipedia.org/wiki/Go_(game)).
+
+Be sure to evaluate all possible future board states from the current position: leave no stone unturned!
+
+If you need a hint on how to get started, there is one below encoded using [base64](https://www.base64decode.org/):
+
+```txt
+VGhpcyBpcyBub3QgYWN0dWFsbHkgcG9zc2libGUuIFBsZWFzZSBkbyBub3QgYXR0ZW1wdCB0aGlzIGV4ZXJjaXNlIPCfmII=
 ```
