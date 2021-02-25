@@ -4,7 +4,7 @@ This is the final project for "Phase 1" of [Professional ClojureScript] course.
 
 [Professional ClojureScript]:https://cljs.pro
 
-## Project Description
+## Context
 
 By now we know the basics of the ClojureScript language: syntax, namespaces,
 data structures, sequences, atoms, and have some exposure to the core library.
@@ -13,11 +13,16 @@ We are also familiar with the mechanics of a ClojureScript project: using
 shadow-cljs, folder / file project structure, compilation modes, connecting a
 REPL.
 
+## Project Description
+
 Your task is to build a fun web application using ClojureScript and use what we
 have learned so far!
 
 You may work solo or as a team - up to you! If you decide to work with a group,
 please consider that you will have to coordinate development efforts.
+
+We will spend approximately two weeks of class time for this project. Roughly 20
+hours, plus whatever additional time you spend outside of core class hours.
 
 ## Technical Requirements
 
@@ -104,6 +109,38 @@ direction and spur some ideas!
 
 [GitHub pages]:https://pages.github.com/
 [NeoCities]:https://neocities.org/
+
+## Example Projects
+
+These are some example projects that would fit the requirements. You may use
+these ideas if you want, or riff on them with your own flavor.
+
+If you are unsure of your project idea or need ideas please ask the class and we
+will help brainstorm something together.
+
+#### Whac-A-Something
+
+Like the classic [Whac-A-Mole] game, except you pick a funny category of things to whack.
+
+Maybe "Whac-A-Politician" or "Whac-A-Comic-Book-Character". Look for category
+ideas by browsing the list of [Public APIs](https://github.com/toddmotto/public-apis).
+
+Maybe you keep score in an interesting way depending on what the user clicks on.
+
+[Whac-A-Mole]:https://en.wikipedia.org/wiki/Whac-A-Mole
+
+#### Battleship
+
+You could implement a version of [Battleship] and have players take turns
+sitting at the computer / phone for their move.
+
+[Battleship]:https://en.wikipedia.org/wiki/Battleship_(game)
+
+#### Jeopardy
+
+Create a trivia game that mimics the Jeopardy board using questions from the [Trivia API].
+
+[Trivia API]:https://opentdb.com/api_config.php
 
 ## Learning Objectives
 
