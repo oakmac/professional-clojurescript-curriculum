@@ -20,6 +20,7 @@ This repository contains lesson outlines, exercises, and student FAQs for the [P
 - [Namespaces for the Red Squirrel Project](exercises/red-squirrel-namespaces.md)
 - [Multi-Game CLI Script](exercises/multi-game-script.md)
 - [Phase 1 Project](exercises/phase1-project.md)
+- [Simple Reagent Project](exercises/simple-reagent-project.md)
 
 ## License
 
